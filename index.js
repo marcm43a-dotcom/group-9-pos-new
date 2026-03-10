@@ -15,8 +15,6 @@ let customerBalance = 0;
 let customerChange = 0;
 
 let storeList = [
-  { name: "Notebook", price: 50, stock: 5, quantity: 0, image: "assets/iid_image/1.jpg" },
-  { name: "Pen", price: 10, stock: 5, quantity: 0, image: "assets/iid_image/2.jpg" }
 ];
 
 function renderStoreList() {
@@ -297,3 +295,4 @@ function toggleAdminSection(isAdmin) {
     adminDiv.style.display = isAdmin ? "flex" : "none";
   }
 }
+
