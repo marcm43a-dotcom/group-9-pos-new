@@ -1,0 +1,136 @@
+* {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(200, 200, 200);
+
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+}
+
+
+
+#checkout {
+  height: 100%;
+  width: 25%;
+
+  background: rgb(100, 0, 0, 0.8);
+  border: 1px solid rgb(200, 0, 0);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+}
+
+
+
+#checkout_button_set_user_profile {
+  height: 50px;
+  width: 100%;
+  
+  background: rgb(150, 0, 150, 0.8);
+  border: 1px solid rgb(200, 0, 200);
+}
+
+
+
+#checkout_list_tittle {
+  font-size: 16px;
+}
+
+
+
+#checkout_list_button_reset_list {
+  height: 40px;
+  width: 150px;
+  border-radius: 16px;
+  
+  background: rgb(150, 50, 0, 0.8);
+  border: 1px solid rgb(200, 100, 0);
+}
+#checkout_list_button_reset_list:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+#checkout_list_button_reset_list:active {
+  transform: scale(1.01);
+}
+
+
+
+#checkout_list {
+  height: 360px;
+  width: 360px;
+  
+  border: 1px solid rgb(200, 0, 0);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  gap: 8px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+
+#checkout_list_listed_item {
+  font-size: 16px;
+
+  width: 330px;
+
+  background: rgb(150, 50, 0, 0.8);
+  border: 1px solid rgb(200, 100, 0);
+
+  padding: 8px;
+}
+#checkout_list_listed_item:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+#checkout_list_listed_item:active {
+  transform: scale(1.01);
+}
+
+
+
+#checkout_summary_sub_total,
+#checkout_summary_discount_rate,
+#checkout_summary_discounted_price,
+#checkout_summary_vat_rate,
+#checkout_summary_overall_price,
+#checkout_summary_customer_balance,
+#checkout_summary_customer_chanage {
+  font-size: 16px;
+}
+
+
+
+#checkout_button_purchase_items {
+  height: 50px;
+  width: 360px;
+  border-radius: 16px;
+  
+  background: rgb(150, 50, 0, 0.8);
+  border: 1px solid rgb(200, 100, 0);
+}
+#checkout_button_purchase_items:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+#checkout_button_purchase_items:active {
+  transform: scale(1.01);
+}

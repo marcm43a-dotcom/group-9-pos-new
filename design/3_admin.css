@@ -1,0 +1,70 @@
+* {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(200, 200, 200);
+
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+}
+
+
+
+#admin {
+  height: 100%;
+  width: 5%;
+
+  background: rgb(150, 50, 0, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+}
+
+
+
+#admin_button_add_item,
+#admin_button_edit_name,
+#admin_button_edit_stock,
+#admin_button_edit_price,
+#admin_button_edit_image,
+#admin_button_remove_item,
+#admin_button_set_discount_rate,
+#admin_button_set_vat_rate {
+  height: 60px;
+  width: 60px;
+  border-radius: 16px;
+
+  background: rgb(100, 0, 0, 0.8);
+  border: 1px solid rgb(200, 0, 0);
+}
+#admin_button_add_item:hover,
+#admin_button_edit_name:hover,
+#admin_button_edit_stock:hover,
+#admin_button_edit_price:hover,
+#admin_button_edit_image:hover,
+#admin_button_remove_item:hover,
+#admin_button_set_discount_rate:hover,
+#admin_button_set_vat_rate:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+#admin_button_add_item:active,
+#admin_button_edit_name:active,
+#admin_button_edit_stock:active,
+#admin_button_edit_price:active,
+#admin_button_edit_image:active,
+#admin_button_remove_item:active,
+#admin_button_set_discount_rate:active,
+#admin_button_set_vat_rate:active {
+  transform: scale(1.01);
+}
